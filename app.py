@@ -6,7 +6,14 @@ from mikro_next.api.schema import Image
 
 @register
 def segment_cells(image: Image) -> Image:
-    "Segment cells in an image"
+    """Segment cells in an image
+
+
+    This is a placeholder function that currently does nothing.
+
+
+
+    """
     return image
 
 
